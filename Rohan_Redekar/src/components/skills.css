@@ -1,0 +1,33 @@
+.skills {
+    margin-top: 40px;
+}
+
+.skills_images {
+  width: 60%;
+  margin: 40px auto;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2,200px);
+  grid-gap: 5%;
+}
+
+.skills_images > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.skills div h1 {
+  width: 90px;
+  margin: 0px auto;
+  text-align: center;
+  color: aquamarine;
+  border-bottom: 3px solid aquamarine;
+}
+
+.skills_images img {
+  width: 120px;
+}

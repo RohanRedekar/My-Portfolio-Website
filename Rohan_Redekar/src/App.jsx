@@ -1,12 +1,23 @@
 import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import "../node_modules/";
+import Button from "@mui/material/Button";
+import Navbar from "./components/navbar";
+import { Intro } from "./components/intro";
+import { About } from "./components/about";
+import { Skills } from "./components/skills";
+import { Steper } from "./components/stepper";
+import { Projects } from "./components/projects";
+
 function App() {
-  const [count, setCount] = useState(0);
   return (
     <div className='App'>
-      <button className='btn btn-success'>success</button>
+      <Navbar />
+      <Intro />
+      <About />
+      <Steper />
+      <Skills />
+      <Projects/>
     </div>
   );
 }

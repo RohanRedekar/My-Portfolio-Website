@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  /* background-color: aliceblue; */
+}
+
+.resume_btn a{
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navigations {
+  display: flex;
+  color: white;
+}
+
+.navigations p {
+  margin-right: 15px;
+}
