@@ -1,9 +1,11 @@
 import "./intro.css";
-
+import profile_img from "../images/profile_img.png";
 export const Intro = () => {
   return (
     <div id='intro' className='intro_container'>
-      <div></div>
+      <div>
+        <img src={profile_img} alt='' />
+      </div>
       <div className='intro_description'>
         <h1>Hi 👨🏽‍💻</h1>
         <h1>
