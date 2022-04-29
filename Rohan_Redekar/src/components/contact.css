@@ -1,0 +1,31 @@
+.contact {
+    margin-bottom: 40px;
+}
+
+.contact > h1 {
+  margin: auto;
+  width: 230px;
+  color: aquamarine;
+  margin-bottom: 40px;
+  border-bottom: 2px solid aquamarine;
+}
+
+.contact_logos {
+  margin: auto;
+  width: 20%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.contact_svg {
+   transform: scale(2);
+   color: white;
+}
+
+.contact > h2 {
+    width: 347px;
+    color: white;
+    margin: 30px auto;
+}

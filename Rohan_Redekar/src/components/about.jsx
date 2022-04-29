@@ -2,7 +2,7 @@ import "./about.css"
 export const About = () => {
 
   return (
-    <div className='about'>
+    <div id="about" className='about'>
       <h1>About</h1>
       <p>
         Enthusiastic developer, eager to contribute to team success through hard

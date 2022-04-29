@@ -2,7 +2,7 @@ import "./intro.css";
 
 export const Intro = () => {
   return (
-    <div className='intro_container'>
+    <div id='intro' className='intro_container'>
       <div></div>
       <div className='intro_description'>
         <h1>Hi 👨🏽‍💻</h1>
@@ -11,11 +11,11 @@ export const Intro = () => {
         </h1>
         <h1>Full Stack</h1>
         <h1>MERN Developer</h1>
-        <div className="media_links">
-          <a href='https://www.linkedin.com/in/rohan-redekar/'>
+        <div className='media_links'>
+          <a href='https://www.linkedin.com/in/rohan-redekar/' target='_blank'>
             <i class='logo fab fa-linkedin'></i>
           </a>
-          <a href='https://github.com/RohanRedekar'>
+          <a href='https://github.com/RohanRedekar' target='_blank'>
             <i class='logo fab fa-github-square'></i>
           </a>
         </div>

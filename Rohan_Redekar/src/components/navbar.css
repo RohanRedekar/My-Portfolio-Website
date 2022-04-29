@@ -1,12 +1,15 @@
+.navbar > div {
+  width: 100%;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  /* background-color: aliceblue; */
 }
 
-.resume_btn a{
+.resume_btn a {
   margin-left: 15px;
   color: white;
   text-decoration: none;
@@ -19,4 +22,15 @@ nav {
 
 .navigations p {
   margin-right: 15px;
+}
+
+.navigations a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigations a:hover {
+  color: white;
+  transform: translateY(2%);
+  border-bottom: 2px solid #e8aead;
 }

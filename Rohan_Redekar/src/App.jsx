@@ -8,6 +8,8 @@ import { About } from "./components/about";
 import { Skills } from "./components/skills";
 import { Steper } from "./components/stepper";
 import { Projects } from "./components/projects";
+import { Blogs } from "./components/blogs";
+import { Contact } from "./components/contact";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Steper />
       <Skills />
       <Projects/>
+      <Blogs/>
+      <Contact/>
     </div>
   );
 }

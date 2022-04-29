@@ -6,7 +6,7 @@ import react_img from "../images/react.svg";
 import redux_img from "../images/redux.svg";
 import mongodb_img from "../images/mongodb.svg";
 import express_img from "../images/express.svg";
-import materialUI_img from "../images/material-ui.svg";
+import github_img from "../images/github-icon.svg";
 
 const skills = [
   html_img,
@@ -16,12 +16,12 @@ const skills = [
   redux_img,
   mongodb_img,
   express_img,
-  materialUI_img,
+  github_img,
 ];
 
 export const Skills = () => {
   return (
-    <div className='skills'>
+    <div id='skills' className='skills'>
       <div>
         <h1>Skills</h1>
       </div>
