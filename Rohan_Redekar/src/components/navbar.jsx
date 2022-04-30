@@ -10,7 +10,7 @@ const Navbar = () => {
     "http://drive.google.com/file/d/17s-uHeTxvIqhJBFrfOd8V5MHoByAswXF/view?usp=sharing";
 
   const toggleNavList = (id) => {
-    var element = document.getElementById(id);
+    var element = e.target.id;
     if (element) {
       element.scrollIntoView();
     }
