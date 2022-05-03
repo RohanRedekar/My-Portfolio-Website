@@ -25,11 +25,11 @@ export const Contact = () => {
           </a>
         </div>
       </div>
-      <h2>
+      <h3>
         Made With{" "}
         <span style={{ color: "red", background: "transparent" }}>❤</span> By
         Rohan
-      </h2>
+      </h3>
     </div>
   );
 };

@@ -7,7 +7,6 @@
   width: 140px;
   color: aquamarine;
   margin-bottom: 40px;
-  border-bottom: 2px solid aquamarine;
 }
 
 .projects_container {
@@ -34,12 +33,12 @@
   padding: 20px 0px;
 }
 
-.project_img  img {
+.project_img img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
 }
 
-.project_img  img:hover {
+.project_img img:hover {
   width: 110%;
   transform: translateX(-4.5%);
   transition-duration: 400ms;
@@ -56,11 +55,20 @@
 }
 
 .project_links > div {
-   margin-right: 25px;
-   text-align: center;
+  margin-right: 25px;
+  text-align: center;
 }
 
 .project_links img {
   width: 50px;
 }
 
+@media only screen and (max-width: 767px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .projects_section {
+    height: 1300px;
+  }
+}

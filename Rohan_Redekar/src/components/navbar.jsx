@@ -1,11 +1,13 @@
 import { Button } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { motion } from "framer-motion";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navbar = () => {
+  const [text, setText] = useState("Resume");
+
   const resume_link =
     "http://drive.google.com/file/d/17s-uHeTxvIqhJBFrfOd8V5MHoByAswXF/view?usp=sharing";
 
@@ -16,14 +18,27 @@ const Navbar = () => {
     }
   };
 
+  const showText = () => {
+    setText("Download");
+  };
+
+  const hideText = () => {
+    setText("Resume");
+  };
+
   return (
     <div id='navbar' className='navbar'>
       <div>
         <nav>
           <div className='resume_btn'>
             <a href={resume_link}>
-              <Button color='inherit' variant='outlined'>
-                Resume
+              <Button
+                onMouseEnter={showText}
+                onMouseLeave={hideText}
+                color='inherit'
+                variant='outlined'
+              >
+                {text}
               </Button>
             </a>
           </div>

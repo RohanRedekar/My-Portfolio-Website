@@ -1,6 +1,6 @@
 .intro_container {
   width: 1000px;
-  height: 400px;
+  /* height: 500px; */
   display: flex;
   justify-content: space-between;
   /* border: 1px solid white; */
@@ -11,10 +11,13 @@
 .intro_container > div:nth-child(1) {
   width: 400px;
   height: 400px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .intro_container > div:nth-child(1) img {
-  width: 100%;
+  width: 90%;
+  height: 400px;
 }
 
 .intro_description {
@@ -23,9 +26,14 @@
   color: white;
 }
 
-.intro_description > h1 {
+.intro_description h1 {
   font-size: 60px;
   margin: 10px 0px;
+}
+
+.mern_developer_text {
+  display: flex;
+  gap: 18px;
 }
 
 .name {
@@ -40,4 +48,39 @@
   font-size: 50px;
   color: white;
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mern_developer_text {
+    display: block;
+  }
+  .intro_container {
+    justify-content: space-around;
+    height: 520px;
+  }
+  .intro_container > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .intro_container {
+    width: 100%;
+    display: block;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .intro_description {
+    margin: auto;
+    text-align: center;
+  }
+
+  .intro_container > div:nth-child(1) {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
 }

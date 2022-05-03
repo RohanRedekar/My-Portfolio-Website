@@ -12,7 +12,10 @@ export const Intro = () => {
           I'm <span className='name'>Rohan</span>
         </h1>
         <h1>Full Stack</h1>
-        <h1>MERN Developer</h1>
+        <div className="mern_developer_text">
+          <h1>MERN</h1>
+          <h1>Developer</h1>
+        </div>
         <div className='media_links'>
           <a href='https://www.linkedin.com/in/rohan-redekar/' target='_blank'>
             <i class='logo fab fa-linkedin'></i>

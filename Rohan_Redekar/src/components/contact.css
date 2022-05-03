@@ -1,18 +1,19 @@
 .contact {
-    margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .contact > h1 {
   margin: auto;
+  text-align: center;
   width: 230px;
   color: aquamarine;
   margin-bottom: 40px;
-  border-bottom: 2px solid aquamarine;
 }
 
 .contact_logos {
   margin: auto;
-  width: 20%;
+  max-width: 250px;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
@@ -20,12 +21,13 @@
 }
 
 .contact_svg {
-   transform: scale(2);
-   color: white;
+  transform: scale(2);
+  color: white;
 }
 
-.contact > h2 {
-    width: 347px;
-    color: white;
-    margin: 30px auto;
+.contact > h3 {
+  text-align: center;
+  width: 305px;
+  color: white;
+  margin: 30px auto;
 }
